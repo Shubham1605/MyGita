@@ -1,0 +1,2 @@
+rootProject.name='MyGita'
+include ':app'

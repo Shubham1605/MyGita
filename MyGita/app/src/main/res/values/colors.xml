@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#262938</color>
+    <color name="colorPrimaryDark">#181A24</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorSansShlok">#027E72</color>
+    <color name="colorTransparentWhite">#cccccc</color>
+    <color name="colorChapBg">#164859</color>
+    <color name="colorChap11">#9ADAFB</color>
+    <color name="colorChap12">#C33EBFF3</color>
+    <color name="colorChap13">#FFA16B</color>
+    <color name="colorChap14">#5d13e7</color>
+    <color name="colorShlokCountInner">#dff0d8</color>
+    <color name="colorShlokCountOuter">#017A6F</color>
+    <color name="colorShlokCountBg">#CDCAEFF8</color>
+    <color name="colorShlokBG">	#D2B48C</color>
+    <color name="adhyayBg">#BDF2D5</color>
+    <color name="adhyayPage">#00F6F6F6</color>
+    <color name="adhyayCount">#8C8B8B</color>
+</resources>

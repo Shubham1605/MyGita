@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rellayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/feather1"
+    tools:context=".ShlokContentActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="80dp"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="20dp">
+
+        <TextView
+            android:id="@+id/sansShlok"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.4"
+            android:background="@drawable/border"
+            android:padding="20sp"
+            android:text="सीदन्ति मम गात्राणि मुखं च परिशुष्यति ।
+वेपथुश्च शरीरे में रोमहर्षश्च जायते ॥"
+            android:textAlignment="center"
+            android:textColor="@color/colorSansShlok"
+            android:textSize="22sp" />
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/hindiShlokScroll"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@color/colorWhite"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/hindiShlok"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorWhite"
+                android:padding="20sp"
+                android:paddingBottom="0dp"
+                android:text="इस सेना में बड़े-बड़े धनुषों वाले तथा युद्ध में भीम और अर्जुन के समान शूरवीर सात्यकि और विराट तथा महारथी राजा द्रुपद, धृष्टकेतु और चेकितान तथा बलवान काशिराज, पुरुजित, कुन्तिभोज और मनुष्यों में श्रेष्ठ शैब्य, पराक्रमी युधामन्यु तथा बलवान उत्तमौजा, सुभद्रापुत्र अभिमन्यु एवं द्रौपदी के पाँचों पुत्र- ये सभी महारथी हैं॥4-6॥"
+                android:textAlignment="textStart"
+                android:textColor="@color/colorPrimary"
+                android:textSize="24sp" />
+        </androidx.core.widget.NestedScrollView>
+        <TextView
+            android:id="@+id/shlokCount"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:paddingTop="5dp"
+            android:text="@string/shlok"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:textAlignment="center"
+            android:textColor="@color/colorSansShlok"
+            android:textSize="22sp"
+            android:background="@drawable/border_hindi"
+             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/shlokcountbody"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="10dp"
+        >
+        <ImageButton
+            android:id="@+id/prevButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorWhite"
+            app:srcCompat="@drawable/prev" />
+        <ImageButton
+            android:id="@+id/shareButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorWhite"
+            app:srcCompat="@drawable/share2" />
+        <ImageButton
+            android:id="@+id/nextButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorWhite"
+            app:srcCompat="@drawable/next" />
+    </LinearLayout>
+
+</RelativeLayout>
