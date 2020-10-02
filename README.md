@@ -1,6 +1,7 @@
 # MyGita
+The primary purpose of the Bhagavad- Gita is to illuminate for all of humanity the realization of the true nature of divinity.
 
-## My Gita is an android app to read gita verses in sanskrit and hindi
+## My Gita is an android app to read gita verses in sanskrit and hindi.
 
 ## App Link in playstore
 
